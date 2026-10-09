@@ -16,7 +16,7 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/showproduct">Show Product</router-link>
+            <router-link class="nav-link" to="/customer_crud">customer_crud</router-link>
           </li>
            <li class="nav-item">
             <router-link class="nav-link" to="/customer">Customer</router-link>
@@ -38,6 +38,16 @@
           </ul>
         </li>
 
+         <li class="nav-item dropdown"></li>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Employee
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/employee">employee</a></li>
+            <li><a class="dropdown-item" href="/employee_crud">employee_crud</a></li>
+            <li><a class="dropdown-item" href="/contact_crud">contact_crud</a></li>
+            </ul>
+            
            <li class="nav-item">
             <router-link class="nav-link" to="/about">About</router-link>
           </li>
