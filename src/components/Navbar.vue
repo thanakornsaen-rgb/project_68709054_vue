@@ -15,18 +15,30 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Product
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/product">Product</a></li>
+            <li><a class="dropdown-item" href="/show_product">Show_product</a></li>
+            <li><a class="dropdown-item" href="/asset">Asset</a></li>
+          </ul>
+        </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/customer_crud">customer_crud</router-link>
+            <router-link class="nav-link" to="/customer_crud">Customer_crud</router-link>
           </li>
            <li class="nav-item">
             <router-link class="nav-link" to="/customer">Customer</router-link>
           </li>
-           <li class="nav-item">
-            <router-link class="nav-link" to="/employee">Employee</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/contact">Contact</router-link>
-          </li>
+          <li class="nav-item dropdown"></li>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/contact">Contact</a></li>
+            <li><a class="dropdown-item" href="/contact_crud">Contact_crud</a></li>
+            </ul>
             <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Register
@@ -45,7 +57,6 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/employee">employee</a></li>
             <li><a class="dropdown-item" href="/employee_crud">employee_crud</a></li>
-            <li><a class="dropdown-item" href="/contact_crud">contact_crud</a></li>
             </ul>
             
            <li class="nav-item">

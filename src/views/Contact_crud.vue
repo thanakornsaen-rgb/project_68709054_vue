@@ -97,7 +97,7 @@ export default {
 
     const fetchEmployee = async () => {
       try {
-        const response = await fetch("http://localhost/project_week3/php_api/contact_crud.php");
+        const response = await fetch("http://localhost/project_week3_vue/php_api/contact_crud.php");
         const result = await response.json();
 
         if (result.success) {

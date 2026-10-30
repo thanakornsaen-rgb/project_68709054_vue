@@ -56,6 +56,21 @@ const routes = [
     path: '/contact_crud',
     name: 'contact_crud',
     component: () => import(/* webpackChunkName: "about" */ '../views/Contact_crud.vue')
+  },
+  {
+    path: '/product',
+    name: 'product',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Product.vue')
+  },
+  {
+    path: '/show_product',
+    name: 'show_product',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Show_product.vue')
+  },
+  {
+    path: '/asset',
+    name: 'asset',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Asset.vue')
   }
 ]
 
